@@ -1,0 +1,3 @@
+﻿  hwLess59DynamicMassiveAllFunc.cpp
+E:\projectSiPlusPlus\hwLess59DynamicMassiveAllFunc\hwLess59DynamicMassiveAllFunc.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  hwLess59DynamicMassiveAllFunc.vcxproj -> E:\projectSiPlusPlus\hwLess59DynamicMassiveAllFunc\Debug\hwLess59DynamicMassiveAllFunc.exe

@@ -1,0 +1,2 @@
+E:\projectSiPlusPlus\testProj\Debug\testProj.exe
+E:\projectSiPlusPlus\testProj\Debug\testProj.pdb

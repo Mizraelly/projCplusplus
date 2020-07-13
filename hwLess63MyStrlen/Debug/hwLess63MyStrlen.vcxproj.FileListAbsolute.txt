@@ -1,0 +1,2 @@
+E:\projectSiPlusPlus\hwLess63MyStrlen\Debug\hwLess63MyStrlen.exe
+E:\projectSiPlusPlus\hwLess63MyStrlen\Debug\hwLess63MyStrlen.pdb
