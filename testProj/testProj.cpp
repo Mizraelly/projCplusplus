@@ -2,6 +2,9 @@
 using namespace std;
 int Factorial(int N);
 void Swap(int* a, int* b);
+void showInfo(int(*foo)(int str));
+int getSimb(int num);
+
 int Factorial(int N) 
 {
 
@@ -15,13 +18,30 @@ void Swap(int* a, int* b)
     *a = *b;
     *b = temp;
 }
+
+
+int getSimb(int num)
+{
+    return num;
+}
+
+void showInfo(int(*foo)( int ) , int arg )
+{
+    cout << foo(arg) << endl;
+}
+
 int main()
 {
-    int a = 5;
+    int(*foo)(int) = getSimb;
+    
+    
+    showInfo(foo, 5);
+    
+   /* int a = 5;
     int b = 6;
     cout << "a = " << a << " b = " << b << endl;
     Swap(&a, &b);
-    cout << "a = " << a << " b = " << b << endl;
+    cout << "a = " << a << " b = " << b << endl;*/
     /*setlocale(LC_ALL, "Rus");
     int a;
     do {       
